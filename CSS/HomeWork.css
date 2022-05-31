@@ -40,13 +40,9 @@ a{
                             width:50%; 
                             border-radius:10px;
                             margin-left: 245px;
-   
+                            size-adjust: 100%;
+                            box-shadow: 10px 10px 50px 1px #c2c0a1;
                         }
-
-.main3 .sons .contImg img:hover{
-                                size-adjust: 100%;
-                                box-shadow:10px 10px 50px 1px #c2c0a1;
-                                }
 
 .main3 .sons .contImg .info{
                             text-align:center; 
@@ -120,9 +116,6 @@ a{
 
 
 
-
-
-
 h1.title{
   text-align: center;
   margin: 50px 0 0 0 ;
@@ -139,7 +132,7 @@ h1.title{
   width: 35px;
   height: 35px;
   margin:-5px 10px 0 0;
-  background-image: url(./Html/src/off.png);
+  background-image: url(../src/off.png);
 }
 
 .title:hover>.bubble{
@@ -147,16 +140,16 @@ h1.title{
   
 }
 
-/* @keyframes bubble {
+@keyframes bubble {
   from{
     display: none;
-    background-image: url(./src/off.png);
+    background-image: url(../src/off.png);
   }
 
   to{
-    background-image: url(./Html/src/on.png);
+    background-image: url(../src/on.png);
   }
-} */
+}
 
 h1.title:hover{
   text-shadow: 0 0 10px rgb(252, 210, 81);
