@@ -139,7 +139,7 @@ h1.title{
   width: 35px;
   height: 35px;
   margin:-5px 10px 0 0;
-  background-image: url(../Html/src/off.png);
+  background-image: url(./Html/src/off.png);
 }
 
 .title:hover>.bubble{
@@ -147,16 +147,16 @@ h1.title{
   
 }
 
-@keyframes bubble {
+/* @keyframes bubble {
   from{
     display: none;
-    background-image: url(../Html/src/off.png);
+    background-image: url(./src/off.png);
   }
 
   to{
-    background-image: url(../Html/src/on.png);
+    background-image: url(./Html/src/on.png);
   }
-}
+} */
 
 h1.title:hover{
   text-shadow: 0 0 10px rgb(252, 210, 81);
@@ -204,22 +204,22 @@ h1.title:hover{
 
 
 .box1:nth-child(1) .box{
-  background-image: url(../Html/src/s1.png);
+  background-image: url(../src/s1.png);
   
 }
 
 .box1:nth-child(2) .box{
-  background-image: url(../Html/src/s2.png);
+  background-image: url(../src/s2.png);
   
 }
 
 .box1:nth-child(3) .box{
-  background-image: url(../Html/src/s3.png);
+  background-image: url(../src/s3.png);
 
 }
 
 .box1:nth-child(4) .box{
-  background-image: url(../Html/src/s4.png);
+  background-image: url(../src/s4.png);
  
 }
 
@@ -268,16 +268,16 @@ h1.title:hover{
   transform: rotate(-360deg);
 }
 .box1:nth-child(1) .mask{
- background-image: url(../Html/src/李白.jpg);
+ background-image: url(../src/李白.jpg);
 }
 .box1:nth-child(2) .mask{
-  background-image: url(../Html/src/李商隐.jpg);
+  background-image: url(../src/李商隐.jpg);
 }
 .box1:nth-child(3) .mask{
-  background-image: url(../Html/src/辛弃疾.jpg);
+  background-image: url(../src/辛弃疾.jpg);
 }
 .box1:nth-child(4) .mask{
-  background-image: url(../Html/src/李清照.jpg);
+  background-image: url(../src/李清照.jpg);
 }
 
 p.de{
